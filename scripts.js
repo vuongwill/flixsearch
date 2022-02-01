@@ -18,7 +18,7 @@ async function getMovies(url){
 function displayMovies(movies){
     main.innerHTML=''
     movies.forEach(element => {
-        const {title,poster_path,vote_average,overview,release_date}=element
+        const {title,poster_path,overview,release_date}=element
         const movieElement= document.createElement('div')
         movieElement.classList.add('movie')
         movieElement.innerHTML=`
