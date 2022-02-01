@@ -32,7 +32,6 @@ function displayMovies(movies){
         <span class ="date">Released: ${release_date}</span>
         <br>
         <span>${overview}</span>
-        
         </div>
         `
         function moviePoster(){
@@ -40,22 +39,10 @@ function displayMovies(movies){
                 return "default.png"
             } else {
                 return `${IMG_PATH}${poster_path}`
+            }
         }
-}
-        main.appendChild(movieElement)
+    main.appendChild(movieElement)
     });
-}
-
-
-
-function getClassesByRating(rating){
-    if (rating >= 8){
-        return 'green'
-    } else if (rating >= 5) {
-        return 'orange'
-    } else {
-        return 'red'
-    }
 }
 
 form.addEventListener('submit', (e)=>{
