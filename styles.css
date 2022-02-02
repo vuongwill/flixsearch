@@ -25,7 +25,7 @@ input{
     width: 60vw;
 }
 #search{
-    background-color: rgba(190, 185, 185,.8);
+    background-color: rgba(190, 185, 185);
     border: 1px solid rgb(78, 75, 75);
     border-radius: 10px;
     font-size: 1rem;
